@@ -1,0 +1,24 @@
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    padding: 10px 10px 10px 10px;
+}
+
+nav a {
+    color:white;
+    text-decoration: none;
+    padding: 5px 10px 5px 10px;
+}
+
+nav .active {
+    background-color: white;
+    color: black;
+}
