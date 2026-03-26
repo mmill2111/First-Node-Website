@@ -1,0 +1,184 @@
+/* === Form Layout === */ 
+
+.form-page { 
+
+  max-width: 680px; 
+
+  margin: 2rem auto; 
+
+  padding: 0 1rem; 
+
+} 
+
+ 
+
+.form-group { 
+
+  display: flex; 
+
+  flex-direction: column; 
+
+  margin-bottom: 1.25rem; 
+
+} 
+
+ 
+
+label { 
+
+  font-weight: 600; 
+
+  margin-bottom: 0.3rem; 
+
+} 
+
+ 
+
+.required { color: #c0392b; } 
+
+ 
+
+input[type="text"], 
+
+input[type="email"], 
+
+input[type="tel"], 
+
+input[type="number"], 
+
+input[type="date"], 
+
+select, 
+
+textarea { 
+
+  padding: 0.5rem 0.75rem; 
+
+  border: 1px solid #ccc; 
+
+  border-radius: 4px; 
+
+  font-size: 1rem; 
+
+  transition: border-color 0.2s; 
+
+} 
+
+ 
+
+input:focus, select:focus, textarea:focus { 
+
+  outline: none; 
+
+  border-color: #2e4a7a; 
+
+  box-shadow: 0 0 0 2px rgba(46,74,122,0.15); 
+
+} 
+
+ 
+
+fieldset { border: none; padding: 0; margin: 0 0 1.25rem; } 
+
+legend  { font-weight: 600; margin-bottom: 0.4rem; } 
+
+ 
+
+.radio-group, .checkbox-group { 
+
+  display: flex; 
+
+  align-items: center; 
+
+  gap: 0.5rem; 
+
+  margin-bottom: 0.4rem; 
+
+} 
+
+ 
+
+/* === Error & Hint Messages === */ 
+
+.error-msg { 
+
+  color: #c0392b; 
+
+  font-size: 0.875rem; 
+
+  margin-top: 0.25rem; 
+
+  display: none; 
+
+} 
+
+ 
+
+.hint { color: #666; font-size: 0.85rem; margin-top: 0.2rem; } 
+
+ 
+
+/* === Buttons === */ 
+
+.form-buttons { display: flex; gap: 1rem; margin-top: 1.5rem; } 
+
+ 
+
+button[type="submit"] { 
+
+  background: #2e4a7a; 
+
+  color: white; 
+
+  border: none; 
+
+  padding: 0.65rem 1.5rem; 
+
+  border-radius: 4px; 
+
+  font-size: 1rem; 
+
+  cursor: pointer; 
+
+} 
+
+ 
+
+button[type="submit"]:hover { background: #1a3560; } 
+
+ 
+
+button[type="reset"] { 
+
+  background: transparent; 
+
+  border: 1px solid #aaa; 
+
+  padding: 0.65rem 1.5rem; 
+
+  border-radius: 4px; 
+
+  font-size: 1rem; 
+
+  cursor: pointer; 
+
+} 
+
+ 
+
+/* === Success Message === */ 
+
+.success-msg { 
+
+  background: #e8f8ee; 
+
+  border: 2px solid #1a6b3c; 
+
+  border-radius: 6px; 
+
+  padding: 2rem; 
+
+  text-align: center; 
+
+} 
+
