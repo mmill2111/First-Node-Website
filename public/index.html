@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html>
-
     <head>
         <title>Home</title>
         <link rel="stylesheet" href="style.css">
+        <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
     </head>
 
     <body>
         <nav class="navbar">
             <h1>My Website</h1>
-            <div class="hamburger" onclick="toggleMenu()">☰</div>
-            <ul class="nav-links">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
+            <div id="sidebar">
+                <div class="hamburger">☰</div>
+                <ul class="nav-links">
+                    <li><a href="/" class="current">Home</a></li>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                </ul>
+            </div>
         </nav>
-
-        <hr>
 
         <h1>Welcome to My Website</h1>
 
