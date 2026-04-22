@@ -3,11 +3,24 @@ body {
 }
 
 h1 {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2rem;
 }
 
-p {
-    font-family: Arial, Helvetica, sans-serif;
+p, li {
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1rem;
+}
+
+img {
+    padding: 0px 0px 0px 0px;
+    width: 49%;
 }
 
 section {

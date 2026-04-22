@@ -1,10 +1,39 @@
-<!-- I used responsive units and @media tags for my images to ensure they look good on all viewport sizes. Specifically, I used percentages in the width and height tags, and a media query to change the image when switching to a mobile screen. -->
+<!--
+TYPOGRAPHY:
+- What Google Fonts did you choose and why?
+I choose Figtree and Quicksand because of their readability and contrast.
+- How do they complement each other (font pairing)?
+They are slightly different while giving the heading font (Quicksand) more weight
+- What font weights did you use?
+I increased the font weight of the heading to give the text on my page structure
+- How did you make your typography responsive?
+I used the rem unit to ensure my text stayed the same size on all screens
+ 
+IMAGES:
+- How did you optimize your images?
+I optimized my images by cropping them to the same size and using the loading=lazy property
+- What file types did you use and why?
+I used jpeg files becuase they are the most widely avalible
+- How did you ensure your images are responsive?
+I used media queries to change the size and stacking of the images based on viewport width, as well as percentage units.
+ 
+RESPONSIVE DESIGN:
+- What specific techniques did you use?
+I used media queries, rem units, and percentage units to resize content based on viewport size.
+- Where can these changes be seen on your site?
+These changes can be seen when resizing the website.
+-->
 
 <!DOCTYPE html>
 <html>
     <head>
         <title>Home</title>
         <link rel="stylesheet" href="style.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+
         <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
     </head>
 
@@ -29,7 +58,8 @@
 
             <p>This is my homepage.</p>
 
-            <img src="Dropship-Deserts-of-Kharak-Concept-Art.jpg" width="50%" alt="A spaceship with a person standing in front of it" id = "homeImage">
+            <img src="Dropship-Deserts-of-Kharak-Concept-Art.jpg" alt="A spaceship with a person standing in front of it" id = "homeImage" loading="lazy">
+            <img src="Dropship-Deserts-of-Kharak-Concept-Art2.jpg" alt="A spaceship with a person standing in front of it" id = "homeImage" loading="lazy">
             <p>I like concept art.</p>
 
         </section>
